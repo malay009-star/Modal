@@ -14,14 +14,23 @@
 </head>
 
 <body>
+    <!-- main section -->
     <section id="main_sec" class="">
         <div class="rounded-xl shadow-xl shadow-black-900" id="box">
             <h1 class="font-semibold text-6xl">Modal Project</h1>
             <button class="rounded-lg mt-10 py-1 px-3 text-medium border-2 border-[#49a6e9]" id="btn">OPEN MODAL</button>
         </div>
     </section>
+
+    <!-- overlay -->
+    <div class="w-full h-full" id="overlay">
+        <p></p>
+    </div>
+
+    <!-- pop up box -->
     <section class="rounded-xl shadow-xl shadow-black-900" id="pop-up">
-        <i class="fa-solid fa-xmark" id="cancel"></i>
+        <!-- <i class="fa-solid fa-xmark" id="cancel"></i> -->
+        <img src="Assets/img/close.png" id="cancel" alt="">
         <p>Modal Content</p>
     </section>
 
