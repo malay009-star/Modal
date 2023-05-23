@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Nastaliq+Urdu&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika+Negative:wght@300;400;500;600;700&display=swap");
+*,
+::after,
+::before {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #080b17;
+  color: #FFFFFF;
+  font-family: Poppins, sans-serif;
+}
+
+#main_sec {
+  position: relative;
+  background-image: url("/Assets/img/hero.jpeg");
+  background-position: left;
+  background-position-y: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #102A42;
+}
+#main_sec #box {
+  width: 600px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+#main_sec button {
+  background-color: #49a6e9;
+  color: white;
+  letter-spacing: 5px;
+}
+#main_sec button:hover {
+  transition: all 0.6s ease;
+  background-color: white;
+  color: #49a6e9;
+}
+
+#pop-up {
+  position: absolute;
+  top: 35%;
+  left: 29.5%;
+  color: #102A42;
+  width: 565px;
+  height: 200px;
+  background-color: rgb(230, 230, 230);
+  display: none;
+}
+#pop-up i {
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 88%;
+  font-size: 3.3rem;
+  color: rgb(250, 65, 65);
+}
+#pop-up p {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+@media (max-width: 1023px) {
+  #pop-up {
+    top: 35%;
+    left: 22%;
+  }
+}
+@media (max-width: 750px) {
+  #main_sec #box {
+    width: 470px;
+    height: 292px;
+  }
+  #box h1 {
+    font-size: 4rem;
+  }
+  #box button {
+    font-size: 13px;
+  }
+  #pop-up {
+    width: 450px;
+    height: 200px;
+    top: 35%;
+    left: 20%;
+  }
+}
+@media (max-width: 500px) {
+  #main_sec #box {
+    width: 410px;
+  }
+  #box h1 {
+    font-size: 45px;
+  }
+  #pop-up {
+    width: 433px;
+    height: 200px;
+    top: 35%;
+    left: 7%;
+  }
+}
+@media (max-width: 415px) {
+  #main_sec #box {
+    width: 330px;
+    height: 200px;
+  }
+  #box h1 {
+    font-size: 2rem;
+  }
+  #box button {
+    font-size: 12px;
+  }
+  #pop-up {
+    width: 280px;
+    height: 150px;
+    top: 20%;
+    left: 12%;
+  }
+  #pop-up i {
+    font-size: 2rem;
+  }
+  #pop-up p {
+    font-size: 1.6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
