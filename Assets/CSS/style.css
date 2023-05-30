@@ -121,9 +121,9 @@ body {
     left: 7%;
   }
 }
-@media (max-width: 415px) {
+@media (max-width: 455px) {
   #main_sec #box {
-    width: 330px;
+    width: 360px;
     height: 200px;
   }
   #box h1 {
@@ -133,16 +133,33 @@ body {
     font-size: 12px;
   }
   #pop-up {
-    width: 280px;
+    width: 290px;
     height: 150px;
-    top: 20%;
-    left: 12%;
+    top: 24%;
+    left: 17%;
   }
   #pop-up img {
-    font-size: 2rem;
+    margin-left: 88%;
+    width: 28px;
+    height: 28px;
   }
   #pop-up p {
     font-size: 1.6rem;
+  }
+}
+@media (max-width: 400px) {
+  #main_sec #box {
+    width: 330px;
+  }
+  #pop-up {
+    width: 280px;
+    height: 130px;
+    top: 26%;
+    left: 13%;
+  }
+  #pop-up img {
+    width: 26px;
+    height: 26px;
   }
 }
 

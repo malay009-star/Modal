@@ -1,7 +1,7 @@
 #main_sec {
     position: relative;
     z-index: 1;
-    background-image: url('Assets/img/hero.jpeg');
+    background-image: url('/Assets/img/hero.jpeg');
     background-position: left;
     background-position-y: 100%;
     height: 100vh;
@@ -123,10 +123,10 @@
     }
 }
 
-@include sm-mobile {
+@include md-mobile {
     #main_sec {
         #box {
-            width: 330px;
+            width: 360px;
             height: 200px;
             // color: red;
         }
@@ -141,15 +141,35 @@
         }
     }
     #pop-up {
-        width: 280px;
+        width: 290px;
         height: 150px;
-        top: 20%;
-        left: 12%;
+        top: 24%;
+        left: 17%;
         img {
-            font-size: 2rem;
+            margin-left: 88%;
+            width: 28px;
+            height: 28px;
         }
         p {
             font-size: 1.6rem;
+        }
+    }
+}
+
+@include sm-mobile {
+    #main_sec {
+        #box {
+            width: 330px;
+        }
+    }
+    #pop-up {
+        width: 280px;
+        height: 130px;
+        top: 26%;
+        left: 13%;
+        img {
+            width: 26px;
+            height: 26px;
         }
     }
 }
